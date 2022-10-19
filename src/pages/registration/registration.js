@@ -6,7 +6,6 @@ import input_register from '../../components/inputRegister/input_register.js'
 
 export default () => {
    // let template = 
-   console.log(console.log('То что приходит из tpl в  pages/registration.js :', tpl())
-   )
+   console.log(console.log('То что приходит из tpl в  pages/registration.js :', tpl()));
     return Handlebars.compile(tpl())
 }
