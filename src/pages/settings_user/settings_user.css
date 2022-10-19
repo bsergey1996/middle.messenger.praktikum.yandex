@@ -1,0 +1,103 @@
+.container-settings{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 150px;
+}
+
+.setting-avatar{
+    background: #efefef url("/src/static/avatar-default_2.png") 50% no-repeat;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 97px;
+    border-radius: 70px;
+    margin: 0% 35% 10% ;
+
+}
+
+.return-block{
+    height: 100%;
+    width: 65px;
+    background: #fbfbfb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.return-arrow{
+    background:  url("/src/static/left-arrow.png");
+    background-repeat:no-repeat;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0000;
+    transition: all .3s;
+}
+
+
+.settings-form{
+    width: 410px;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 70px;
+    /* height: 40em; */
+}
+
+.input-container{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.input{
+    width: fit-content;
+    height: -moz-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    color: #1e1e1e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.label {
+    width: fit-content;
+    height: fit-content;
+    color: #1e1e1e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.settings-button {
+    width: 280px;
+    height: 37px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #819be5;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 12px 0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    transition: all .3s;
+    border: none;
+    margin-left: 18%;
+}
