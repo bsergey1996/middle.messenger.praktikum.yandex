@@ -2,7 +2,7 @@
   "name": "chat",
   "version": "1.0.0",
   "description": "---",
-  "main": "index.js",
+  "main": "index.html",
   "engine ": "v15.12.0",
   "scripts": {
     "dev": "parcel index.html --open",
