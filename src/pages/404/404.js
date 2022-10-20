@@ -1,8 +1,6 @@
 import Handlebars from "handlebars";
-import tpl from 'bundle-text:./404.hbs'
-
-Handlebars.registerPartial('404', tpl);
+import tpl from './404.hbs'
 
 export default () => {
-    return Handlebars.compile(tpl)()
+    return Handlebars.compile(tpl())();
 }

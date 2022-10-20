@@ -8,20 +8,20 @@
 }
 
 .setting-avatar{
-    background: #efefef url("/src/static/avatar-default_2.png") 50% no-repeat;
+    background: #efefef url("/static/avatar-default_2.png") 50% no-repeat;
     width: 140px;
     height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 97px;
+    margin-bottom: 75px;
+    margin-left: 6px;
     border-radius: 70px;
-    margin: 0% 35% 10% ;
 
 }
 
 .return-block{
-    height: 100%;
+    height: 107%;
     width: 65px;
     background: #fbfbfb;
     justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .return-arrow{
-    background:  url("/src/static/left-arrow.png");
+    background:  url("/static/left-arrow.png");
     background-repeat:no-repeat;
     width: 40px;
     height: 40px;
@@ -48,7 +48,9 @@
     background-color: #fff;
     padding: 30px 50px;
     border-radius: 70px;
-    /* height: 40em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input-container{
@@ -63,8 +65,6 @@
 
 .input{
     width: fit-content;
-    height: -moz-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     color: #1e1e1e;
     font-size: 13px;
@@ -99,5 +99,4 @@
     line-height: 13px;
     transition: all .3s;
     border: none;
-    margin-left: 18%;
 }

@@ -1,6 +1,6 @@
 import Handlebars from "handlebars";
-import tpl from './registration.hbs' //bundle-text:
-import './registration.css'
+import tpl from './lohin.hbs'
+import './login.css'
 import input_register from '../../components/inputRegister/input_register.js'
 
 export default () => {
