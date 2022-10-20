@@ -3,7 +3,7 @@
 
 ### Демо проекта чат
 
-- Демо 
+- Демо https://deploy--tranquil-basbousa-a8c6c8.netlify.app/
 - Запуск сборки проекта npm run build
 - Запуск сервера npm run start
 - Запуск в режиме разработки npm run dev
