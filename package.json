@@ -7,7 +7,7 @@
     "dev": "parcel index.html --open",
     "build": "parcel build index.html",
     "clean": "rimraf ./dist",
-    "start": "npm build index.html && node ./server.js"
+    "start": "node ./server.js"
   },
   "repository": {
     "type": "git",
