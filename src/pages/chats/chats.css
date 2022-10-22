@@ -1,0 +1,253 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    flex: 4;
+    display: flex;
+}
+
+
+.sidebar{
+    z-index: 2;
+    background-color: #f2edff;
+    width: 260px;
+    height: 1000px;
+    box-shadow: 0 0 15px #02030324;
+}
+
+.profile-link{
+    display: flex;
+    justify-content: end;
+    padding: 15px 13px;
+    color: rgb(106, 94, 119);
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-input{
+    border-radius: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* .chats-list{
+    min-height: 100%;
+    width: 100%;
+} */
+
+.chat{
+    height: fit-content;
+    border-top: 2px solid #bda7cf;
+    /* border-bottom: 1px solid #bda7cf; */
+    align-items: flex-start;
+    margin: 0 10px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.chat:last-child{
+    border-bottom: 2px solid #bda7cf;
+}
+
+.chat:hover{
+    box-shadow: 0 0 15px #bda7cf;
+    cursor: pointer;
+    background-color: rgb(231 211 245);
+}
+
+ .active , .active:hover {
+    box-shadow: 0 0 15px #bda7cf;
+    cursor: pointer;
+    background-color: rgb(230 194 255);
+}
+
+.message-main{
+    flex-direction: column;
+    display: flex;
+}
+
+.chat-avatar{
+    background: #625a77 url("../../../static/avatar-default_50х50.png") 50% no-repeat;
+    width: 48px;
+    height: 48px;
+    border-radius: 70px;   
+    display: flex;
+    justify-content: left;
+
+}
+
+.message-top{
+    justify-content: space-between;
+    display: flex;
+}
+.message-bottom{
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.user-name{
+    color: #1e1e1e;
+    height: 13px;
+    margin: 3px 0px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+.last-message{
+    width: 12em;
+    color: rgb(75, 60, 92);
+    margin: 0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    padding-left: 10px;
+}
+
+.time{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #999;
+    margin: 0;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.count{
+    width: 22px;
+    height: 20px;
+    font-size: 13px;
+    background: #625489;
+    border-radius: 70%;
+    justify-content: center;
+    margin-top: 14px;
+    padding-top: 4px;
+    display: flex;
+    color: #fff;
+}
+
+.count:empty {
+	display: none;
+}
+
+.chat-screen{
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-between;
+    display: flex;
+}
+
+.chat-header{
+    z-index: 1;
+    background-color: #ece7f8;
+    height: 8%;
+    box-shadow: 0 0 25px #02030324;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.screen-chat-avatar{
+    padding: 12px;
+    background:  #ece7f8 url('../../../static/avatar-default_50х50.png') 50% no-repeat;
+    width: 48px;
+    height: 48px;
+    border-radius: 70px;   
+    display: flex;
+    justify-content: left;
+}
+
+.screen-user-info{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.screen-user-name{
+    display: flex;
+   align-items: center;
+    color: #1e1e1e;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+.chat-settings{
+    font-family:  monospace;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.chat-messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+.message-add-area{
+    height: 6%;
+    background-color: #f2edff;
+    border-top: 1px solid #eaeaea;
+
+    padding-top: 12px;
+    display: flex;
+}
+
+.add-file{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    background: url('../../../static/attach.png');
+    cursor: pointer;
+}
+
+.input-message{
+    width: 92%;
+    border-radius: 30px;
+    padding-left: 12px;
+    height: 29px;
+}
+
+.add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    margin: 3px 12px;
+    border: 1px solid ;
+    color: #fff;
+    padding-left: 1px;
+    background-color: #625489;
+    border-radius: 80px;
+    font-size: 19px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+
+
+
+
+
